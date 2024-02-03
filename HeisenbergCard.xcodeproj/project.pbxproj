@@ -14,6 +14,12 @@
 		AB7081002B6E092100FDEBC2 /* HeisenbergCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7080FF2B6E092100FDEBC2 /* HeisenbergCardTests.swift */; };
 		AB70810A2B6E092100FDEBC2 /* HeisenbergCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7081092B6E092100FDEBC2 /* HeisenbergCardUITests.swift */; };
 		AB70810C2B6E092100FDEBC2 /* HeisenbergCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB70810B2B6E092100FDEBC2 /* HeisenbergCardUITestsLaunchTests.swift */; };
+		AB70811C2B6E0CC500FDEBC2 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB70811B2B6E0CC500FDEBC2 /* Pacifico-Regular.ttf */; };
+		AB70811D2B6E0CC500FDEBC2 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB70811B2B6E0CC500FDEBC2 /* Pacifico-Regular.ttf */; };
+		AB70811E2B6E0CC500FDEBC2 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB70811B2B6E0CC500FDEBC2 /* Pacifico-Regular.ttf */; };
+		AB7081212B6E166800FDEBC2 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7081202B6E166800FDEBC2 /* InfoView.swift */; };
+		AB7081222B6E166800FDEBC2 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7081202B6E166800FDEBC2 /* InfoView.swift */; };
+		AB7081232B6E166800FDEBC2 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7081202B6E166800FDEBC2 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,9 @@
 		AB7081052B6E092100FDEBC2 /* HeisenbergCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeisenbergCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB7081092B6E092100FDEBC2 /* HeisenbergCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeisenbergCardUITests.swift; sourceTree = "<group>"; };
 		AB70810B2B6E092100FDEBC2 /* HeisenbergCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeisenbergCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AB70811B2B6E0CC500FDEBC2 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		AB70811F2B6E100000FDEBC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AB7081202B6E166800FDEBC2 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +103,11 @@
 		AB7080ED2B6E091F00FDEBC2 /* HeisenbergCard */ = {
 			isa = PBXGroup;
 			children = (
+				AB70811F2B6E100000FDEBC2 /* Info.plist */,
+				AB70811A2B6E0C8F00FDEBC2 /* fonts */,
 				AB7080EE2B6E091F00FDEBC2 /* HeisenbergCardApp.swift */,
 				AB7080F02B6E091F00FDEBC2 /* ContentView.swift */,
+				AB7081202B6E166800FDEBC2 /* InfoView.swift */,
 				AB7080F22B6E092000FDEBC2 /* Assets.xcassets */,
 				AB7080F42B6E092000FDEBC2 /* Preview Content */,
 			);
@@ -125,6 +137,14 @@
 				AB70810B2B6E092100FDEBC2 /* HeisenbergCardUITestsLaunchTests.swift */,
 			);
 			path = HeisenbergCardUITests;
+			sourceTree = "<group>";
+		};
+		AB70811A2B6E0C8F00FDEBC2 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AB70811B2B6E0CC500FDEBC2 /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB70811C2B6E0CC500FDEBC2 /* Pacifico-Regular.ttf in Resources */,
 				AB7080F62B6E092000FDEBC2 /* Preview Assets.xcassets in Resources */,
 				AB7080F32B6E092000FDEBC2 /* Assets.xcassets in Resources */,
 			);
@@ -240,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB70811D2B6E0CC500FDEBC2 /* Pacifico-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB70811E2B6E0CC500FDEBC2 /* Pacifico-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB7080F12B6E091F00FDEBC2 /* ContentView.swift in Sources */,
+				AB7081212B6E166800FDEBC2 /* InfoView.swift in Sources */,
 				AB7080EF2B6E091F00FDEBC2 /* HeisenbergCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB7081222B6E166800FDEBC2 /* InfoView.swift in Sources */,
 				AB7081002B6E092100FDEBC2 /* HeisenbergCardTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB70810C2B6E092100FDEBC2 /* HeisenbergCardUITestsLaunchTests.swift in Sources */,
+				AB7081232B6E166800FDEBC2 /* InfoView.swift in Sources */,
 				AB70810A2B6E092100FDEBC2 /* HeisenbergCardUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,11 +450,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"HeisenbergCard/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HeisenbergCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,11 +480,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"HeisenbergCard/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HeisenbergCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
