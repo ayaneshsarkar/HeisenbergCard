@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB7080EF2B6E091F00FDEBC2 /* HeisenbergCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7080EE2B6E091F00FDEBC2 /* HeisenbergCardApp.swift */; };
+		AB7080F12B6E091F00FDEBC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7080F02B6E091F00FDEBC2 /* ContentView.swift */; };
+		AB7080F32B6E092000FDEBC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB7080F22B6E092000FDEBC2 /* Assets.xcassets */; };
+		AB7080F62B6E092000FDEBC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB7080F52B6E092000FDEBC2 /* Preview Assets.xcassets */; };
+		AB7081002B6E092100FDEBC2 /* HeisenbergCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7080FF2B6E092100FDEBC2 /* HeisenbergCardTests.swift */; };
+		AB70810A2B6E092100FDEBC2 /* HeisenbergCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7081092B6E092100FDEBC2 /* HeisenbergCardUITests.swift */; };
+		AB70810C2B6E092100FDEBC2 /* HeisenbergCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB70810B2B6E092100FDEBC2 /* HeisenbergCardUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB7080FC2B6E092100FDEBC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB7080E32B6E091F00FDEBC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB7080EA2B6E091F00FDEBC2;
+			remoteInfo = HeisenbergCard;
+		};
+		AB7081062B6E092100FDEBC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB7080E32B6E091F00FDEBC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB7080EA2B6E091F00FDEBC2;
+			remoteInfo = HeisenbergCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB7080EB2B6E091F00FDEBC2 /* HeisenbergCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeisenbergCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB7080EE2B6E091F00FDEBC2 /* HeisenbergCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeisenbergCardApp.swift; sourceTree = "<group>"; };
+		AB7080F02B6E091F00FDEBC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AB7080F22B6E092000FDEBC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB7080F52B6E092000FDEBC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB7080FB2B6E092100FDEBC2 /* HeisenbergCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeisenbergCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB7080FF2B6E092100FDEBC2 /* HeisenbergCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeisenbergCardTests.swift; sourceTree = "<group>"; };
+		AB7081052B6E092100FDEBC2 /* HeisenbergCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeisenbergCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB7081092B6E092100FDEBC2 /* HeisenbergCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeisenbergCardUITests.swift; sourceTree = "<group>"; };
+		AB70810B2B6E092100FDEBC2 /* HeisenbergCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeisenbergCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB7080E82B6E091F00FDEBC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB7080F82B6E092100FDEBC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB7081022B6E092100FDEBC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB7080E22B6E091F00FDEBC2 = {
+			isa = PBXGroup;
+			children = (
+				AB7080ED2B6E091F00FDEBC2 /* HeisenbergCard */,
+				AB7080FE2B6E092100FDEBC2 /* HeisenbergCardTests */,
+				AB7081082B6E092100FDEBC2 /* HeisenbergCardUITests */,
+				AB7080EC2B6E091F00FDEBC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB7080EC2B6E091F00FDEBC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB7080EB2B6E091F00FDEBC2 /* HeisenbergCard.app */,
+				AB7080FB2B6E092100FDEBC2 /* HeisenbergCardTests.xctest */,
+				AB7081052B6E092100FDEBC2 /* HeisenbergCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB7080ED2B6E091F00FDEBC2 /* HeisenbergCard */ = {
+			isa = PBXGroup;
+			children = (
+				AB7080EE2B6E091F00FDEBC2 /* HeisenbergCardApp.swift */,
+				AB7080F02B6E091F00FDEBC2 /* ContentView.swift */,
+				AB7080F22B6E092000FDEBC2 /* Assets.xcassets */,
+				AB7080F42B6E092000FDEBC2 /* Preview Content */,
+			);
+			path = HeisenbergCard;
+			sourceTree = "<group>";
+		};
+		AB7080F42B6E092000FDEBC2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AB7080F52B6E092000FDEBC2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AB7080FE2B6E092100FDEBC2 /* HeisenbergCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB7080FF2B6E092100FDEBC2 /* HeisenbergCardTests.swift */,
+			);
+			path = HeisenbergCardTests;
+			sourceTree = "<group>";
+		};
+		AB7081082B6E092100FDEBC2 /* HeisenbergCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB7081092B6E092100FDEBC2 /* HeisenbergCardUITests.swift */,
+				AB70810B2B6E092100FDEBC2 /* HeisenbergCardUITestsLaunchTests.swift */,
+			);
+			path = HeisenbergCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB7080EA2B6E091F00FDEBC2 /* HeisenbergCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB70810F2B6E092100FDEBC2 /* Build configuration list for PBXNativeTarget "HeisenbergCard" */;
+			buildPhases = (
+				AB7080E72B6E091F00FDEBC2 /* Sources */,
+				AB7080E82B6E091F00FDEBC2 /* Frameworks */,
+				AB7080E92B6E091F00FDEBC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeisenbergCard;
+			productName = HeisenbergCard;
+			productReference = AB7080EB2B6E091F00FDEBC2 /* HeisenbergCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB7080FA2B6E092100FDEBC2 /* HeisenbergCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB7081122B6E092100FDEBC2 /* Build configuration list for PBXNativeTarget "HeisenbergCardTests" */;
+			buildPhases = (
+				AB7080F72B6E092100FDEBC2 /* Sources */,
+				AB7080F82B6E092100FDEBC2 /* Frameworks */,
+				AB7080F92B6E092100FDEBC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB7080FD2B6E092100FDEBC2 /* PBXTargetDependency */,
+			);
+			name = HeisenbergCardTests;
+			productName = HeisenbergCardTests;
+			productReference = AB7080FB2B6E092100FDEBC2 /* HeisenbergCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB7081042B6E092100FDEBC2 /* HeisenbergCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB7081152B6E092100FDEBC2 /* Build configuration list for PBXNativeTarget "HeisenbergCardUITests" */;
+			buildPhases = (
+				AB7081012B6E092100FDEBC2 /* Sources */,
+				AB7081022B6E092100FDEBC2 /* Frameworks */,
+				AB7081032B6E092100FDEBC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB7081072B6E092100FDEBC2 /* PBXTargetDependency */,
+			);
+			name = HeisenbergCardUITests;
+			productName = HeisenbergCardUITests;
+			productReference = AB7081052B6E092100FDEBC2 /* HeisenbergCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB7080E32B6E091F00FDEBC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					AB7080EA2B6E091F00FDEBC2 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					AB7080FA2B6E092100FDEBC2 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = AB7080EA2B6E091F00FDEBC2;
+					};
+					AB7081042B6E092100FDEBC2 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = AB7080EA2B6E091F00FDEBC2;
+					};
+				};
+			};
+			buildConfigurationList = AB7080E62B6E091F00FDEBC2 /* Build configuration list for PBXProject "HeisenbergCard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB7080E22B6E091F00FDEBC2;
+			productRefGroup = AB7080EC2B6E091F00FDEBC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB7080EA2B6E091F00FDEBC2 /* HeisenbergCard */,
+				AB7080FA2B6E092100FDEBC2 /* HeisenbergCardTests */,
+				AB7081042B6E092100FDEBC2 /* HeisenbergCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB7080E92B6E091F00FDEBC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7080F62B6E092000FDEBC2 /* Preview Assets.xcassets in Resources */,
+				AB7080F32B6E092000FDEBC2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB7080F92B6E092100FDEBC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB7081032B6E092100FDEBC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB7080E72B6E091F00FDEBC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7080F12B6E091F00FDEBC2 /* ContentView.swift in Sources */,
+				AB7080EF2B6E091F00FDEBC2 /* HeisenbergCardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB7080F72B6E092100FDEBC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7081002B6E092100FDEBC2 /* HeisenbergCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB7081012B6E092100FDEBC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB70810C2B6E092100FDEBC2 /* HeisenbergCardUITestsLaunchTests.swift in Sources */,
+				AB70810A2B6E092100FDEBC2 /* HeisenbergCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB7080FD2B6E092100FDEBC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB7080EA2B6E091F00FDEBC2 /* HeisenbergCard */;
+			targetProxy = AB7080FC2B6E092100FDEBC2 /* PBXContainerItemProxy */;
+		};
+		AB7081072B6E092100FDEBC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB7080EA2B6E091F00FDEBC2 /* HeisenbergCard */;
+			targetProxy = AB7081062B6E092100FDEBC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AB70810D2B6E092100FDEBC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB70810E2B6E092100FDEBC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB7081102B6E092100FDEBC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HeisenbergCard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayaneshsarkar.HeisenbergCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB7081112B6E092100FDEBC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HeisenbergCard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayaneshsarkar.HeisenbergCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB7081132B6E092100FDEBC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayaneshsarkar.HeisenbergCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeisenbergCard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HeisenbergCard";
+			};
+			name = Debug;
+		};
+		AB7081142B6E092100FDEBC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayaneshsarkar.HeisenbergCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeisenbergCard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HeisenbergCard";
+			};
+			name = Release;
+		};
+		AB7081162B6E092100FDEBC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayaneshsarkar.HeisenbergCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeisenbergCard;
+			};
+			name = Debug;
+		};
+		AB7081172B6E092100FDEBC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayaneshsarkar.HeisenbergCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeisenbergCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB7080E62B6E091F00FDEBC2 /* Build configuration list for PBXProject "HeisenbergCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB70810D2B6E092100FDEBC2 /* Debug */,
+				AB70810E2B6E092100FDEBC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB70810F2B6E092100FDEBC2 /* Build configuration list for PBXNativeTarget "HeisenbergCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB7081102B6E092100FDEBC2 /* Debug */,
+				AB7081112B6E092100FDEBC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB7081122B6E092100FDEBC2 /* Build configuration list for PBXNativeTarget "HeisenbergCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB7081132B6E092100FDEBC2 /* Debug */,
+				AB7081142B6E092100FDEBC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB7081152B6E092100FDEBC2 /* Build configuration list for PBXNativeTarget "HeisenbergCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB7081162B6E092100FDEBC2 /* Debug */,
+				AB7081172B6E092100FDEBC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB7080E32B6E091F00FDEBC2 /* Project object */;
+}
